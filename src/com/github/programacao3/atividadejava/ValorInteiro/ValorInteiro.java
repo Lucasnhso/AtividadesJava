@@ -11,7 +11,7 @@ public class ValorInteiro {
         System.out.println("Digite um número:");
         vi.num = scanner.nextInt();
 
-        System.out.println("O numero é: " + vi.isType(vi.num));
+        System.out.println("O numero é: " + vi.numType(vi.num));
 
         System.out.println(vi.isStrange(vi.num));
 
@@ -22,10 +22,11 @@ public class ValorInteiro {
     }
 
     public boolean isPair(int number){
-        return((number%2 == 0) ? true : false);
+
+        return(number%2 == 0);
     }
 
-    public String isType(int number){
+    public String numType(int number){
         return ((this.isPair(number) == true) ? "Par" : "Ímpar");
     }
 
