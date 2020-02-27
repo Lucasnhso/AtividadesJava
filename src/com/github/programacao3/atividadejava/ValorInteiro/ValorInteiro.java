@@ -1,4 +1,4 @@
-package com.github.programacao3.atividadejava;
+package com.github.programacao3.atividadejava.ValorInteiro;
 
 import java.util.Scanner;
 
