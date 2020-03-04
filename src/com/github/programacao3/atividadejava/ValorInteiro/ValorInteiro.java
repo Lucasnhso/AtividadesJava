@@ -27,6 +27,7 @@ public class ValorInteiro {
     }
 
     public String numType(int number){
+
         return ((this.isPair(number) == true) ? "Par" : "Ímpar");
     }
 
